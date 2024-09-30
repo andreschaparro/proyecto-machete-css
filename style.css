@@ -4,26 +4,24 @@ body {
 }
 
 .navbar {
-    margin: 0;
     width: 100%;
     background-color: grey;
     overflow: auto;
 }
 
 .navbar a {
-    margin: 0;
     float: left;
-    padding: 12px;
+    padding: 15px;
     color: white;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: salmon;
+    background-color: seagreen;
 }
 
 .active {
-    background-color: salmon;
+    background-color: seagreen;
 }
 
 .responsive {
@@ -38,7 +36,7 @@ i {
     .responsive {
         display: block;
         float: right;
-        padding: 12px;
+        padding: 15px;
     }
 
     a {

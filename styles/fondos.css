@@ -1,9 +1,9 @@
 .grid-container3 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     background-color: grey;
     padding: 15px;
-    justify-content: space-evenly;
+    justify-items: center;
 }
 
 .grid-container3>div {
